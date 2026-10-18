@@ -1,0 +1,4 @@
+
+
+dotnet ef migrations add Sprint1Subscriptions --project src/RealEstateERP.Infrastructure --startup-project src/RealEstateERP.Web --output-dir Data/Migrations
+dotnet ef database update --project src/RealEstateERP.Infrastructure --startup-project src/RealEstateERP.Web
